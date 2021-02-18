@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.7em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;    
+}
+$pink: #FF589E;
+$mywhite: #ffffff;
+$lightpink: #FF83B7;
+$black: #343434;
+$mygray: #929292;
+$mypurple: #8261EE;
+$background: #F2F2FE;
+$talktext: #889FB5;
+        // declaration mostapha
+    @mixin bloc {
+        background-color: #ffffff;
+        width: 30%;
+        border-radius: 20px;
+        box-shadow: 1px 0px 20px #929292;
+    }
+    @mixin image {
+        background-color: $mypurple;
+        border-radius: 50%;
+        width: 90px;
+        height: 90px;
+        margin-left: 36%;
+        margin-top: 5%;
+    }
+    @mixin img {  
+    }
+    //   end mostapha
+    // declaration de fadoua
+    @mixin cards {
+        border-radius: 10%;
+        padding: 2%;
+        background-color:$mywhite;
+        width: 10%;
+        height:10%;
+        margin-bottom: 6%;
+        margin-top: 2%;
+        box-shadow:0px 10px 10px 0px $mypurple;
+    }
+    @mixin stars {
+        border-radius: 10%;
+        width: 22%;
+        height: 200px;
+        padding: 2%;
+        box-shadow:1px 0px 20px  $mygray ;
+    }
+        // end fadoua
+        // declaration doha
+     @mixin button{  color: $mywhite;
+        background-color: $mypurple;
+        width: 25%;
+        height: 10%;
+        margin-top: 4%;
+        border: none;
+        border-radius: 2em;
+    } 
+        // start code scss mostapha
