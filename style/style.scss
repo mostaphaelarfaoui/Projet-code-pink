@@ -353,3 +353,128 @@ p{
   }
 }
                 // fin code scss fadoua
+                // start code scss samira
+@mixin imprtant-text {
+    width: 18%;
+    height: 380px;
+    background-color: $mywhite;
+    border-radius: 10px;
+    margin-left: 14px;
+    margin-top: -70px;
+
+}
+.samira {
+    background-color:$background;
+    height: 945px;
+   
+    h5{
+        margin-top: 10px;
+    }
+    h3{
+        color:$mywhite ;
+    }
+    .paragraph{
+        margin-top: 20px;
+        color:$mygray;
+        line-height: 26px;
+            span{
+                text-decoration: line-through;
+            }
+    }
+    .partie3 {
+        text-align: center;
+        padding-top: 33px;
+        .pricing{
+            font-size: 28px !important;
+            display: flex;
+            justify-content: space-around;   
+            text-align: center;
+            margin-top: 121px;
+            .monthly{
+                color:$mywhite;
+            }
+            .Pricing__table1 {
+                @include imprtant-text;
+                &__par{
+                    background-color: $mypurple;
+                    width: 85%;
+                    height: 48px;
+                    border-radius: 11px;
+                    margin-left: 7%;
+                    margin-top: 22px;
+                   
+                  
+                }
+            }
+            .pricing__table2 {
+                @include imprtant-text;
+                &__par--h3{
+                    // @extend &__par;
+                    width: 85%;
+                    height: 48px;
+                    border-radius: 11px;  
+                    background-color:$pink;
+                    margin-left: 7%; 
+                    margin-top: 17px;
+                }
+            }
+            .pricing__table3 {
+                @include imprtant-text;
+                &__par{
+                    background-color: $mypurple;
+                    width: 85%;
+                    height: 48px;
+                    border-radius: 11px;
+                    margin-left: 7%;
+                    margin-top: 22px;
+                   
+                  
+                }
+            }
+            .button{
+                background-color:$mypurple;
+                border: $mypurple;
+                color: $mywhite;
+                height: 45px;
+                width: 75%;
+                border-radius: 28px;
+                margin-top: 19px;
+
+            }
+        }
+      
+    }
+    nav{
+        background-image: url(../images/fun-facts-bg.png);
+        margin-top: 6%;
+        height: 200px; 
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 140px;
+        color: #FFFFFF;
+        .nav__box1{
+            position: relative;
+            img{
+                position: absolute;
+                bottom: 148px;
+                left: 129px;
+            }
+        }
+        .nav__box2{
+            position: relative;
+           img{
+               position: absolute;
+                bottom: 177px;
+                left: 129px;
+           }
+        }
+        .nav__box3{
+            img{
+                position: absolute;
+                left: 69%;
+            }
+        }
+    }
+}
+
+            // fin code scss samira
