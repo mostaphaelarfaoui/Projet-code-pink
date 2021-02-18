@@ -243,3 +243,113 @@ p{
 }
 }
                  // fin code scss mostapha
+                   // start code scss fadoua
+.fadoua{
+    .img{
+        background-image: url(../images/work-process-bg.png );
+        height: 100%;
+        width: 100%;
+       .partie1{
+        &__title{
+            color:$mywhite;
+            text-align: center;
+            position: relative;
+            top: 3em;
+            
+        }
+        &__paragraph{
+            color:$mywhite;
+            text-align: center;
+            width: 37%;
+            margin: 2% auto;
+            margin-top:5%;
+            }
+    .cards{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+        &__card1{
+            @include cards;
+        }
+        &__card2{
+                @include cards;
+        }
+        &__card3{
+            @include cards;
+        }
+        &__card4{
+            @include cards;
+        }
+        &__card5{
+            @include cards;
+        }
+        &__card6
+        {
+            @include cards;
+        }
+        p{
+        color:$mygray ;  
+        text-align: center; 
+        }
+        &__icons{
+        margin-left: 30%; 
+        }
+        }
+        }
+        }   
+    .partie2{
+        .partie2__title{
+             text-align: center;
+             margin-top: 5%;
+             
+      }
+         .partie2__paragraph{
+             color: $mygray;
+             text-align: center;
+             width: 37%;
+             margin: 1% auto;
+             margin-top:1%;
+           }
+        .stars{
+          display:flex;
+          flex-direction:row;
+          justify-content: space-around;
+          margin-top:2%;
+          padding: 1%;
+           .star1, .star2, .star3{
+              @include stars;
+              .number{
+              display: flex;
+              flex-direction:row;
+                .numberone{
+                align-self: center;
+                }
+            }
+            .icon{
+                margin-left: 38%;
+            }
+             .cyrcle{
+              width: 53px;
+              height: 51px;
+              border-radius: 50%;
+              background-color: $mygray;
+              font-size: 12px;
+              text-align: center;
+              margin-right: 10px;
+              h6{
+                position: relative;
+                top: 25%;
+              }
+            }
+             .star1__pinktitle, .star2__pinktitle, .star3__pinktitle{
+               color:$pink;
+           }
+          }
+            .star1__paragraph, .star2__paragraph, .star3__paragraph {
+              color: $mygray;
+              margin: 21px 0px;
+            }
+         }
+  }
+}
+                // fin code scss fadoua
