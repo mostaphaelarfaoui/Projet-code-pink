@@ -478,3 +478,111 @@ p{
 }
 
             // fin code scss samira
+             // start code scss doha
+.doha{
+    p {
+        color: $mygray;
+        margin-top: 2%;
+    }
+    .myclass {
+        color: $talktext ;
+        margin-top: 5%;
+    }
+    .footer__copy {
+        color: $mywhite;
+    }
+    .partie4{
+        width: 100%;
+        &__title{
+            text-align: center;
+        }
+        &__paragraph{
+            text-align: center;
+        }
+    }
+        .blogs{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-top: 4%;
+        }
+    .blog__button{
+        @include button;
+    }
+    .footer{
+        background-color: #F2F2FE;
+        margin-top: 5%;
+        &__title{
+            text-align: center;
+            margin-top: 10%;
+            margin-bottom: 7%;
+            position: relative;
+            top: 5em;
+        }
+        &__paragraph{
+            text-align: center;
+        }
+        &__info{
+            display: flex;
+            flex-direction: row;
+            .nav{
+                p{
+                    font-size: 12px;
+                }
+            }
+            nav{
+                text-align: start;
+                margin-left: 3%;
+                .button{
+                    @include button;
+                    height: 25%;
+                }
+                .fullName {
+                    width: 40%;
+                    height: 20%;
+                    margin-right: 9%;
+                    margin-top: 3%;
+                    border: none;
+                    border-radius: 2em;
+                    padding: 5px;
+            }
+            .E-Mail-Address{
+                width: 40%;
+                height: 20%;
+                border: none;
+                border-radius: 2em;
+                padding: 5px;
+            }
+            .Your-Message {
+                width: 90%;
+                height: 60%;
+                margin-top: 3%;
+                border: none;
+                border-radius: 2em;
+                padding: 5px 10px
+            }
+            .footer__button {
+                color: $mywhite;
+                background-color: $mypurple;
+                width: 25%;
+                height: 25%;
+                margin-top: 3%;
+                border: none;
+                border-radius: 2em;
+                margin-right: 67%;
+            }
+            }
+        }
+        .footer__network{
+            background-color: $mypurple;
+            margin-top: 18%;
+            text-align: center;
+            .footer-img {
+                width: 2%;
+                height: 2%;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+//             // fin code scss doha
